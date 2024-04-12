@@ -1,0 +1,57 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.headline {
+    background-color: mintcream;
+    text-align: center;
+    font-size: 50px;
+    font-weight:lighter;
+    color:chocolate;
+    font-family: "Brush Script MT";
+}
+
+ol {
+    color:coral
+}
+
+
+ul {
+    color:springgreen;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Copperplate";
+    color:dodgerblue;
+    font-weight:900;
+    background-color: mintcream;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Copperplate";
+    color:hotpink;
+    background-color: mintcream;
+
+}
+strong {
+    color:coral;
+}
+
+a {
+    font-family: "Copperplate";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
