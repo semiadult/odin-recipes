@@ -1,47 +1,145 @@
-body {
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .headline {
-    background-color: mintcream;
+    max-width: 800px;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-weight:lighter;
-    color:chocolate;
+    color: mintcream;
+    background-color: pink;
     font-family: "Brush Script MT";
+    margin: 50px;
+    border: 10px black solid;
+    border-radius: 80px;
+    padding: 10px;
 }
 
-ol {
-    color:coral
+.links-to-recipes {
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 800px;
+    
 }
 
-
-ul {
-    color:springgreen;
+.mainpagelinks {
+    list-style: none;
+    display: flex;
 }
+.lasagna,
+.applepie,
+.chili {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+button {
+    border: 5px black solid;
+    padding: 10px;
+    background-color: mintcream;
+}
+
+.description {
+    max-width: 200px;
+    min-width: 200px;
+    font-size: 24px;
+    font-family: Helvetica;
+    color: black;
+    background-color: mintcream;
+    margin-top: 75px;
+    margin-left: 75px;
+    margin-bottom: auto;
+    margin-right: 25px;
+    padding: 10px;
+    border: 5px black solid;
+    font-weight: normal;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.description2 {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 500px;
+    min-height: 200px;
+    font-size: 24px;
+    font-family: Helvetica;
+    color:black;
+    background-color: mintcream;
+    margin-top: 150px;
+    margin-left: -275px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding: 15px;
+    border: 5px black solid;
+    font-weight: normal;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.description-list {
+    list-style: none;
+    display: flex;
+    }
+
+.ingridients {
+    max-width: 400px;
+    min-width: 400px;
+    margin: 75px auto 50px;
+    text-align: center;
+    font-family: Helvetica;
+    color: black;
+    background-color: pink;
+    font-size: 24px;
+    border: 5px black solid;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.ingridients2 {
+    max-width:800px;
+    min-width:800px;
+    font-family: Helvetica, sans-serif;
+    margin: 50px auto 75px;
+    font-size: 36px;
+    display: block;
+
+    
+}
+.ingridients-list {
+        display: grid;
+}
+
 
 img {
-    width: 300px;
+    max-width: 400px;
+    min-width: 400px;
     height: auto;
+    display: flex;
+    border: 5px black solid;
+    border-radius: 80px;
+    margin: 25px;
+    display: inline;
 }
 
-h3 {
-    text-align: center;
-    font-family: "Copperplate";
-    color:dodgerblue;
-    font-weight:900;
-    background-color: mintcream;
-}
 
-h4 {
-    text-align: center;
-    font-family: "Copperplate";
-    color:hotpink;
-    background-color: mintcream;
-
-}
 strong {
     color:coral;
 }
@@ -49,9 +147,23 @@ strong {
 a {
     font-family: "Copperplate";
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bolder;
+    color:pink;
+    text-decoration: none;
+}
+a:hover {
+    color: hotpink;
 }
 
-p {
-    text-align: center;
+.backtomain {
+    max-width: 800px;
+    min-width: 800px;
+    text-align: right;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+#lasagna {
+    height: 400px;
+    width: 400px;
 }
