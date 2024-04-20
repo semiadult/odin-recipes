@@ -57,7 +57,7 @@ button {
     padding: 10px;
     background-color: mintcream;
     cursor: pointer;
-    transition: 0,2s all;
+    transition: 0,3s all;
 }
 
 button:active {
@@ -176,7 +176,7 @@ a:hover {
     margin: 0 auto 75px;
     background-color: mintcream;
     border-radius: 80px;
-    transition: 0.2s all;
+    transition: 0.3s all;
 }
 
 .backtomain:hover {
