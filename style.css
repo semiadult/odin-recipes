@@ -111,9 +111,9 @@ button:active {
     }
 
 .ingridients {
-    border: 5px black solid;
-    max-width: 400px;
-    min-width: 400px;
+    border: 3px black solid;
+    max-width: 300px;
+    min-width: 300px;
     margin: 75px auto 50px;
     text-align: center;
     font-family: Helvetica;
